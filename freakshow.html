@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title></title>
     <meta charset="utf-8" />
     <script src="jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="flot/jquery.flot.js" type="text/javascript" charset="utf-8"></script>
     <script src="flot/jquery.flot.categories.js" type="text/javascript" charset="utf-8"></script>
     <script src="freakshow.js" type="text/javascript" charset="utf-8"></script>
-</head>
-<body>
-  <div id="placeholder" style="width: 500px; height: 500px;">
-    
-  </div>
-</body>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <style type="text/css" media="screen">
+      .plot {
+        width: 400px;
+        height: 400px;
+        float: left;
+      }
+      .dataContainer {
+        width: 400px;
+        height: 500px;
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1> Freakshow Statistik </h1>
+    <div class="dataContainer">
+      <h2> Sprechzeit in Minuten </h2>
+      <div id="placeholder" class="plot" ></div>
+    </div>
+    <div class="dataContainer">
+      <h2> Maximale kurzzeitige Lautheit in db </h2>
+      <div id="loudnessShortTerm" class="plot" ></div>
+    </div>
+    <div class="dataContainer">
+      <h2> Maximale momentare Lautheit in db </h2>
+      <div id="loudnessMomentary" class="plot" ></div>
+    </div>
+  </body>
 </html>
