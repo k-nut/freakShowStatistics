@@ -30,6 +30,10 @@ function plotData(activity, divId, unit){
     }
   });
 }
+  
+  function secToMinFormatter(val, axis) {
+    return Math.round(val.toFixed(axis.tickDecimals) / 60) + " min";
+  }
 
 var activity = [];
 var loudness_shortterm = [];
@@ -60,7 +64,7 @@ $.getJSON( "./fs132-denk-nicht-in-layern-denk-in-schichten.json", function( data
   plotData(activity.sort(timeSort), "#placeholder", "min");
   plotData(loudness_shortterm.sort(inverseSort), "#loudnessShortTerm", "dB");
   plotData(loudness_momentary.sort(inverseSort), "#loudnessMomentary", "dB");
-  $.plot("#bla", all, {legend: {position: "nw"}});
+  $.plot("#bla", all, {legend: {position: "nw"}, xaxis: {tickFormatter: secToMinFormatter}});
 });
 
 
