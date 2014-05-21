@@ -8,7 +8,11 @@ function inverseSort(a, b){
   return -1* (a[1] - b[1]);
 }
 
-function plotData(activity, divId){
+
+function plotData(activity, divId, unit){
+  function formatter(val, axis) {
+    return val.toFixed(axis.tickDecimals) + unit;
+  }
   $.plot(divId, [ activity ], {
     series: {
       bars: {
@@ -20,6 +24,9 @@ function plotData(activity, divId){
     xaxis: {
       mode: "categories",
       tickLength: 0
+    },
+    yaxis: {
+      tickFormatter: formatter
     }
   });
 }
@@ -46,9 +53,9 @@ $.getJSON( "./fs132-denk-nicht-in-layern-denk-in-schichten.json", function( data
   });
   activity.sort(timeSort);
 }).done(function() {
-  plotData(activity.sort(timeSort), "#placeholder");
-  plotData(loudness_shortterm.sort(inverseSort), "#loudnessShortTerm");
-  plotData(loudness_momentary.sort(inverseSort), "#loudnessMomentary");
+  plotData(activity.sort(timeSort), "#placeholder", "min");
+  plotData(loudness_shortterm.sort(inverseSort), "#loudnessShortTerm", "dB");
+  plotData(loudness_momentary.sort(inverseSort), "#loudnessMomentary", "dB");
 });
 
 
