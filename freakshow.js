@@ -34,28 +34,33 @@ function plotData(activity, divId, unit){
 var activity = [];
 var loudness_shortterm = [];
 var loudness_momentary = [];
+var all = [];
 
 $.getJSON( "./fs132-denk-nicht-in-layern-denk-in-schichten.json", function( data ) {
   var items = [];
   console.log(data);
+  var counter = 0;
   $.each( data.statistics.tracks, function( key, val ) {
     var total = 0;
+    counter++;
+    var bla = [];
     $.each(val.activity, function(key, val){
       total += val[1] - val[0];
+      bla.push([val[0], counter]);
+      bla.push([val[1], counter]);
+      bla.push(null);
     });
+    all.push({"label": val.identifier, data: bla});
     activity.push([val.identifier, Math.round(total/60)]);
     loudness_shortterm.push([val.identifier, val.levels.max_shortterm[0]]);
     loudness_momentary.push([val.identifier, val.levels.max_momentary[0]]);
-    console.log(val.identifier + ': ' + Math.round(total/60) + ' min');
-    console.log(val.identifier + ': momentary:  ' + val.levels.max_momentary[0]);
-    console.log(val.identifier + ': short term:  ' + val.levels.max_shortterm[0]);
-
   });
   activity.sort(timeSort);
 }).done(function() {
   plotData(activity.sort(timeSort), "#placeholder", "min");
   plotData(loudness_shortterm.sort(inverseSort), "#loudnessShortTerm", "dB");
   plotData(loudness_momentary.sort(inverseSort), "#loudnessMomentary", "dB");
+  $.plot("#bla", all, {legend: {position: "nw"}});
 });
 
 
