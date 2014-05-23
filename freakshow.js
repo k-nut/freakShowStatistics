@@ -40,7 +40,7 @@ var loudness_shortterm = [];
 var loudness_momentary = [];
 var all = [];
 
-$.getJSON( "./fs132-denk-nicht-in-layern-denk-in-schichten.json", function( data ) {
+$.getJSON( "http://meta.metaebene.me/media/mm/fs132-denk-nicht-in-layern-denk-in-schichten.json", function( data ) {
   var items = [];
   console.log(data);
   var counter = 0;
