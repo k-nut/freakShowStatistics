@@ -6,6 +6,7 @@
     <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/jquery.flot.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/jquery.flot.categories.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.jfeed.js" type="text/javascript" charset="utf-8"></script>
     <script src="freakshow.js" type="text/javascript" charset="utf-8"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -25,6 +26,7 @@
   </head>
   <body>
     <h1> Freakshow Statistik </h1>
+    <p> für Folge <select id='episodeSelect' onchange='getUrlForSelectedEpisode()'></select></p>
     <div class="dataContainer">
       <h2> Sprechzeit in Minuten </h2>
       <div id="placeholder" class="plot" ></div>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:psc="http://podlove.org/simple-chapters" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:fh="http://purl.org/syndication/history/1.0" >
+
+<channel>
+	<title>Freak Show</title>
+	<link>http://freakshow.fm</link>
+	<description>Menschen! Technik! Sensationen!</description>
+	<lastBuildDate>Thu, 29 May 2014 10:57:37 +0000</lastBuildDate>
+	<atom:link rel="self" type="application/rss+xml" title="Freak Show (Production File)" href="http://freakshow.fm/feed/production-file/" />
+	<atom:link rel="alternate" type="application/rss+xml" title="Freak Show (MP3 Audio)" href="http://freakshow.fm/feed/mp3/" />
+	<atom:link rel="alternate" type="application/rss+xml" title="Freak Show (MPEG-4 AAC Audio)" href="http://freakshow.fm/feed/m4a/" />
+	<atom:link rel="alternate" type="application/rss+xml" title="Freak Show (Ogg Vorbis Audio)" href="http://freakshow.fm/feed/oga/" />
+	<atom:link rel="alternate" type="application/rss+xml" title="Freak Show (Ogg Opus Audio)" href="http://freakshow.fm/feed/opus/" />
+	<atom:link rel="first" href="http://freakshow.fm/feed/production-file/" />
+	<language>de-DE</language>	<atom:link rel="hub" href="http://metaebene.superfeedr.com" />	<atom:link rel="payment" title="Flattr this!" href="https://flattr.com/submit/auto?user_id=243&amp;url=http%3A%2F%2Ffreakshow.fm%2F&amp;language=de_DE&amp;category=audio&amp;title=Freak+Show&amp;description=Menschen%21+Technik%21+Sensationen%21&amp;tags=podcast%2C+freakshow%2C+tim+pritlove%2C+metaebene" type="text/html" />
+<atom:contributor>
+	<atom:name>Tim Pritlove</atom:name>
+	<atom:uri>http://tim.pritlove.org/</atom:uri>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>Clemens Schrimpe</atom:name>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>hukl</atom:name>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>Denis Ahrens</atom:name>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>roddi</atom:name>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>David Scribane</atom:name>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>Florian Erlbeck</atom:name>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>Sven Sedivy</atom:name>
+</atom:contributor>
+<generator>Podlove Podcast Publisher v1.10.7-alpha</generator>
+	<itunes:author>Metaebene Personal Media - Tim Pritlove</itunes:author>
+	<itunes:summary>Die muntere Talk Show um Leben mit Technik, das Netz und Technikkultur. Bisweilen Apple-lastig aber selten einseitig. Wir leben und lieben Technologie und reden darüber. Mit Tim, hukl, roddi, Clemens und Denis. Freak Show hieß irgendwann mal mobileMacs.</itunes:summary>
+<itunes:category text="Technology"><itunes:category text="Tech News"></itunes:category></itunes:category><itunes:category text="Society &amp; Culture"></itunes:category><itunes:category text="Technology"><itunes:category text="Gadgets"></itunes:category></itunes:category>
+	
+	<itunes:owner>
+		<itunes:name>Tim Pritlove</itunes:name>
+		<itunes:email>freakshow@metaebene.me</itunes:email>
+	</itunes:owner>
+	<itunes:image href="http://meta.metaebene.me/media/mm/freakshow-logo-1.0.jpg" />
+	<itunes:subtitle>Menschen! Technik! Sensationen!</itunes:subtitle>
+	<itunes:keywords>tim pritlove, denis ahrens, clemens schrimpe, roddi, hukl, mobilemacs, metaebene</itunes:keywords>
+	<itunes:block>no</itunes:block>
+	<itunes:explicit>no</itunes:explicit>
+
+		<item>
+		<title>FS133 Ich werde noch meinen Kindern davon erzählen</title>
+		<link>http://freakshow.fm/fs133-ich-werde-noch-meinen-kindern-davon-erzaehlen</link>
+		<pubDate>Thu, 29 May 2014 10:56:52 +0000</pubDate>
+		<guid isPermaLink="false">podlove-2014-05-28t23:51:09+00:00-096083f135d58c6</guid>
+		<description><![CDATA[Nachdem die Sendung schon zu Beginn ausführlich darlegt, worüber der gemeine Freak wirklich lacht kommen wir danach gleich zu den ernsten Themen. Ein kurzer Blick in die milchige WWDC-Glaskugel macht uns klar, dass wir schon glücklich sind, wenn es nicht ganz schlimm kommt. Stattdessen wenden wir uns den Neuerungen bei Flattr, hukls und Tims Vorstellungen eines idealen Mail-Services, ownCloud, jüngsten Erkenntnissen im Kriminalfall Mt. Gox, Passwörtern, universellen Netzwerkgeräten und Schwerelosigkeit zu.]]></description>	<atom:link rel="payment" title="Flattr this!" href="https://flattr.com/submit/auto?user_id=243&amp;url=http%3A%2F%2Ffreakshow.fm%2Ffs133-ich-werde-noch-meinen-kindern-davon-erzaehlen&amp;language=de_DE&amp;category=audio&amp;title=FS133+Ich+werde+noch+meinen+Kindern+davon+erz%C3%A4hlen&amp;tags=podcast%2C+freakshow%2C+tim+pritlove%2C+metaebene" type="text/html" />
+<psc:chapters xmlns:psc="http://podlove.org/simple-chapters" version="1.2">
+  <psc:chapter start="00:00:00.000" title="Intro"/>
+  <psc:chapter start="00:02:26.000" title="Begr&#xFC;&#xDF;ung"/>
+  <psc:chapter start="00:07:30.000" title="WWDC"/>
+  <psc:chapter start="00:47:27.000" title="Verschiedenes"/>
+  <psc:chapter start="00:59:34.000" title="Flattr"/>
+  <psc:chapter start="01:19:30.000" title="Hukl-Mail"/>
+  <psc:chapter start="01:49:54.000" title="Owncloud"/>
+  <psc:chapter start="02:03:55.000" title="Bitcoin"/>
+  <psc:chapter start="02:16:52.000" title="Apple-Aktie"/>
+  <psc:chapter start="02:37:03.000" title="Passw&#xF6;rter"/>
+  <psc:chapter start="02:52:35.000" title="Statistiken mit Observium"/>
+  <psc:chapter start="03:02:57.000" title="Loadbalancing"/>
+  <psc:chapter start="03:15:10.000" title="Netzwerken"/>
+  <psc:chapter start="03:31:03.000" title="Raketenstart und Schwerelosigkeit"/>
+  <psc:chapter start="03:54:50.000" title="Hukls Audiointerface"/>
+  <psc:chapter start="03:58:27.000" title="Netzwerk Taschenmesser"/>
+  <psc:chapter start="04:12:00.000" title="Verabschiedung"/>
+  <psc:chapter start="04:12:42.000" title="Outro"/>
+  <psc:chapter start="04:13:50.000" title="Musik: iPhone Ringtone Remix"/>
+</psc:chapters><atom:link rel="http://podlove.org/deep-link" href="http://freakshow.fm/fs133-ich-werde-noch-meinen-kindern-davon-erzaehlen#" /><enclosure url="http://meta.metaebene.me/media/mm/fs133-ich-werde-noch-meinen-kindern-davon-erzaehlen.json" length="227582" type="application/json" /><itunes:duration>04:17:11</itunes:duration><itunes:author>Metaebene Personal Media - Tim Pritlove</itunes:author><itunes:subtitle>WWDC — Flattr — E-Mail Dienste — ownCloud — Apple — 1Password — Observium — Netzwerkhelfer — Schwerelosigkeit</itunes:subtitle><itunes:summary>Nachdem die Sendung schon zu Beginn ausführlich darlegt, worüber der gemeine Freak wirklich lacht kommen wir danach gleich zu den ernsten Themen. Ein kurzer Blick in die milchige WWDC-Glaskugel macht uns klar, dass wir schon glücklich sind, wenn es nicht ganz schlimm kommt. Stattdessen wenden wir uns den Neuerungen bei Flattr, hukls und Tims Vorstellungen eines idealen Mail-Services, ownCloud, jüngsten Erkenntnissen im Kriminalfall Mt. Gox, Passwörtern, universellen Netzwerkgeräten und Schwerelosigkeit zu.</itunes:summary><atom:contributor>
+	<atom:name>Tim Pritlove</atom:name>
+	<atom:uri>http://tim.pritlove.org/</atom:uri>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>Clemens Schrimpe</atom:name>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>hukl</atom:name>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>Denis Ahrens</atom:name>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>David Scribane</atom:name>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>Die Shownotes</atom:name>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>Xenim Streaming Network</atom:name>
+</atom:contributor>
+	</item>
+		<item>
+		<title>FS132 Denk nicht in Layern, denk in Schichten!</title>
+		<link>http://freakshow.fm/fs132-denk-nicht-in-layern-denk-in-schichten</link>
+		<pubDate>Thu, 15 May 2014 09:04:36 +0000</pubDate>
+		<guid isPermaLink="false">podlove-2014-05-15t08:39:01+00:00-a540574d7b6ae72</guid>
+		<description><![CDATA[Der re:publica 14 ist eine längere Pause geschuldet aber dafür bieten wir auch einen ersten Rückblick auf die Veranstaltung. Clemens war wieder für das Netzwerk zuständig und berichtet vom Aufbau, Debugging und Performance des Netzwerks. Etwas gelangweilt setzen wir uns ein wenig mit Apple auseinander und grübeln über eine mögliche Zukunft von App.net nachdem die Zeichen der Plattform eher auf Sturm stehen und viele schon die Geier kreisen sehen.]]></description>	<atom:link rel="payment" title="Flattr this!" href="https://flattr.com/submit/auto?user_id=243&amp;url=http%3A%2F%2Ffreakshow.fm%2Ffs132-denk-nicht-in-layern-denk-in-schichten&amp;language=de_DE&amp;category=audio&amp;title=FS132+Denk+nicht+in+Layern%2C+denk+in+Schichten%21&amp;tags=podcast%2C+freakshow%2C+tim+pritlove%2C+metaebene" type="text/html" />
+<psc:chapters xmlns:psc="http://podlove.org/simple-chapters" version="1.2">
+  <psc:chapter start="00:00:00.000" title="Intro"/>
+  <psc:chapter start="00:03:18.000" title="Begr&#xFC;&#xDF;ung"/>
+  <psc:chapter start="00:06:04.000" title="News im &#xDC;berblick"/>
+  <psc:chapter start="00:11:26.000" title="Auphonic, Podlove, Sondersendung"/>
+  <psc:chapter start="00:25:49.000" title="re:publica-Netzwerk"/>
+  <psc:chapter start="01:06:52.000" title="re:publica-Vortr&#xE4;ge"/>
+  <psc:chapter start="01:23:49.000" title="Web Server Performance Testing"/>
+  <psc:chapter start="02:10:33.000" title="Mac Pro"/>
+  <psc:chapter start="02:23:11.000" title="Maps"/>
+  <psc:chapter start="02:29:14.000" title="App.net Future"/>
+  <psc:chapter start="03:15:51.000" title="Schneier's Law"/>
+  <psc:chapter start="03:21:01.000" title="Apple und Beats"/>
+  <psc:chapter start="03:33:46.000" title="The Martian"/>
+  <psc:chapter start="03:38:28.000" title="Kabel"/>
+  <psc:chapter start="03:46:17.000" title="Verabschiedung"/>
+  <psc:chapter start="03:51:39.000" title="Outro"/>
+</psc:chapters><atom:link rel="http://podlove.org/deep-link" href="http://freakshow.fm/fs132-denk-nicht-in-layern-denk-in-schichten#" /><enclosure url="http://meta.metaebene.me/media/mm/fs132-denk-nicht-in-layern-denk-in-schichten.json" length="229183" type="application/json" /><itunes:duration>03:53:11</itunes:duration><itunes:author>Metaebene Personal Media - Tim Pritlove</itunes:author><itunes:subtitle>Auphonic — Podlove — re:publica — Web Server Performance — Mac Pro — Maps — Crypto — Apple und Beats — App.net</itunes:subtitle><itunes:summary>Der re:publica 14 ist eine längere Pause geschuldet aber dafür bieten wir auch einen ersten Rückblick auf die Veranstaltung. Clemens war wieder für das Netzwerk zuständig und berichtet vom Aufbau, Debugging und Performance des Netzwerks. Etwas gelangweilt setzen wir uns ein wenig mit Apple auseinander und grübeln über eine mögliche Zukunft von App.net nachdem die Zeichen der Plattform eher auf Sturm stehen und viele schon die Geier kreisen sehen.</itunes:summary><atom:contributor>
+	<atom:name>Tim Pritlove</atom:name>
+	<atom:uri>http://tim.pritlove.org/</atom:uri>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>Clemens Schrimpe</atom:name>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>hukl</atom:name>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>Denis Ahrens</atom:name>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>roddi</atom:name>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>David Scribane</atom:name>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>Die Shownotes</atom:name>
+</atom:contributor>
+<atom:contributor>
+	<atom:name>Xenim Streaming Network</atom:name>
+</atom:contributor>
+	</item>
+	</channel>
+</rss>
