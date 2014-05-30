@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Freakshow skip</title>
+  <head>
+    <title>Freakshow Zensur</title>
     <meta charset="utf-8" />
     <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="./skip.js" type="text/javascript" charset="utf-8"></script>
-</head>
-<body>
-  <audio src="http://meta.metaebene.me/media/mm/fs133-ich-werde-noch-meinen-kindern-davon-erzaehlen.mp3" id="player" ontimeupdate="skipAhead()"></audio>
-  <select id="mutedSpeaker"></select>
-  <button onclick="stop()" value="SKip"> Stop! </button>
-  <button onclick="play()" value="SKip"> Play! </button>
-</body>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  </head>
+  <body style="padding-left: 20px;">
+    <h1> Freakshow Zensur</h1>
+    <audio src="http://meta.metaebene.me/media/mm/fs133-ich-werde-noch-meinen-kindern-davon-erzaehlen.mp3" id="player" ontimeupdate="handlePlay()"></audio>
+    <p style="width: 50%"> Böse Menschen verpöhnen einzelnen Freaks. Diese können unten ausgewählt und immer wenn diese sprechen, wird
+    der Teil übersprungen. Funktioniert mal mehr mal weniger gut. Erst mal nur für Folge 133, bei Wunsch aber auch noch mehr. 
+    </p>
+    <select id="mutedSpeaker"></select>
+    <span id="progress"></span>
+    <button onclick="stop()"> Stop! </button>
+    <button onclick="play()"> Play! </button><br/>
+    <script id='fb5zuwa'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=k-nut&button=compact&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fb5zuwa');</script>
+    <a href="https://github.com/k-nut/freakShowStatistics"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.k-nut.eu/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 6]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+        g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <noscript><p><img src="http://piwik.k-nut.eu/piwik.php?idsite=6" style="border:0;" alt="" /></p></noscript>
+    <!-- End Piwik Code -->
+
+  </body>
 </html>

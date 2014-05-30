@@ -18,6 +18,23 @@ $.getJSON(url , function( data ) {
 var lastIndex = 0;
 var lastSpeakerIndex = -1;
 
+
+function updateTimer(){
+  var player = document.getElementById("player");
+  var currentTime = player.currentTime;
+  var minutes = Math.floor(currentTime/60, 2);
+  var seconds = (Math.round(currentTime%60, 2)).toString();
+  if (seconds.length === 1){
+    seconds = "0"+seconds;
+  }
+  $("#progress").text(minutes + ":" + seconds);
+}
+
+function handlePlay(){
+  updateTimer();
+  skipAhead();
+}
+
 function skipAhead(){
   var selectedSpeakerIndex = $("#mutedSpeaker").val();
   if (selectedSpeakerIndex !== lastSpeakerIndex){
@@ -28,22 +45,19 @@ function skipAhead(){
   var i;
   var player = document.getElementById("player");
   var currentTime = player.currentTime;
-  console.log(lastIndex);
 
   speakTime = tracks[selectedSpeakerIndex];
   for (i=lastIndex; i < speakTime.length; i++) {
-    var start= speakTime[i][0];
+    var start = speakTime[i][0];
     if (currentTime > start){
       var stop = speakTime[i][1];
       if (stop > currentTime){
         player.currentTime = stop+2;
-        console.error("skip!");
         lastIndex = i;
         return;
       }
     }
   }
-  //console.log(currentTime);
 }
 
 function stop(){
